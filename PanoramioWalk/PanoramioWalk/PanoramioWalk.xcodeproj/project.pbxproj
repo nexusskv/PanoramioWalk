@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1104A09F1CC8BC660029A00D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1104A09E1CC8BC660029A00D /* main.m */; };
+		1104A0A21CC8BC660029A00D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1104A0A11CC8BC660029A00D /* AppDelegate.m */; };
+		1104A0AA1CC8BC670029A00D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1104A0A91CC8BC670029A00D /* Assets.xcassets */; };
+		1104A0AD1CC8BC670029A00D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1104A0AB1CC8BC670029A00D /* LaunchScreen.storyboard */; };
+		1104A0BA1CC8C3870029A00D /* PhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1104A0B91CC8C3870029A00D /* PhotosViewController.m */; };
+		1104A0BF1CC8D9E00029A00D /* PhotoCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1104A0BE1CC8D9E00029A00D /* PhotoCustomCell.m */; };
+		1104A0C31CC8EB1B0029A00D /* ApiConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = 1104A0C21CC8EB1B0029A00D /* ApiConnector.m */; };
+		D84995CCE79A4344513FD599 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 03821CA949C9F5A99EDE72A7 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03821CA949C9F5A99EDE72A7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1104A09A1CC8BC650029A00D /* PanoramioWalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PanoramioWalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1104A09E1CC8BC660029A00D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1104A0A01CC8BC660029A00D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1104A0A11CC8BC660029A00D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1104A0A91CC8BC670029A00D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = PanoramioWalk/Assets.xcassets; sourceTree = "<group>"; };
+		1104A0AC1CC8BC670029A00D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1104A0AE1CC8BC670029A00D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = PanoramioWalk/Info.plist; sourceTree = "<group>"; };
+		1104A0B81CC8C3870029A00D /* PhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhotosViewController.h; path = PhotosViewController/PhotosViewController.h; sourceTree = "<group>"; };
+		1104A0B91CC8C3870029A00D /* PhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhotosViewController.m; path = PhotosViewController/PhotosViewController.m; sourceTree = "<group>"; };
+		1104A0BD1CC8D9E00029A00D /* PhotoCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhotoCustomCell.h; path = CustomUI/PhotoCustomCell/PhotoCustomCell.h; sourceTree = "<group>"; };
+		1104A0BE1CC8D9E00029A00D /* PhotoCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhotoCustomCell.m; path = CustomUI/PhotoCustomCell/PhotoCustomCell.m; sourceTree = "<group>"; };
+		1104A0C11CC8EB1B0029A00D /* ApiConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ApiConnector.h; path = Network/ApiConnector/ApiConnector.h; sourceTree = "<group>"; };
+		1104A0C21CC8EB1B0029A00D /* ApiConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ApiConnector.m; path = Network/ApiConnector/ApiConnector.m; sourceTree = "<group>"; };
+		43F843861943BDE30C04924C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		6C71F63A52A743ACEBEB657D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1104A0971CC8BC650029A00D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D84995CCE79A4344513FD599 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1104A0911CC8BC640029A00D = {
+			isa = PBXGroup;
+			children = (
+				1104A09C1CC8BC660029A00D /* PanoramioWalk */,
+				1104A0B41CC8C1DB0029A00D /* Resources */,
+				1104A09B1CC8BC650029A00D /* Products */,
+				52A1DA31B71773B4E5AA7C0A /* Pods */,
+				A811C4C2CE6D93B93F9F5711 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1104A09B1CC8BC650029A00D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1104A09A1CC8BC650029A00D /* PanoramioWalk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1104A09C1CC8BC660029A00D /* PanoramioWalk */ = {
+			isa = PBXGroup;
+			children = (
+				1104A0BB1CC8D88A0029A00D /* CustomUI */,
+				1104A0B51CC8C3040029A00D /* Network */,
+				1104A0B61CC8C3150029A00D /* ViewControllers */,
+			);
+			path = PanoramioWalk;
+			sourceTree = "<group>";
+		};
+		1104A09D1CC8BC660029A00D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1104A09E1CC8BC660029A00D /* main.m */,
+			);
+			name = "Supporting Files";
+			path = PanoramioWalk;
+			sourceTree = "<group>";
+		};
+		1104A0B41CC8C1DB0029A00D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1104A0A91CC8BC670029A00D /* Assets.xcassets */,
+				1104A0AB1CC8BC670029A00D /* LaunchScreen.storyboard */,
+				1104A0AE1CC8BC670029A00D /* Info.plist */,
+				1104A09D1CC8BC660029A00D /* Supporting Files */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1104A0B51CC8C3040029A00D /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				1104A0C01CC8EAF20029A00D /* ApiConnector */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		1104A0B61CC8C3150029A00D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1104A0A01CC8BC660029A00D /* AppDelegate.h */,
+				1104A0A11CC8BC660029A00D /* AppDelegate.m */,
+				1104A0B71CC8C3620029A00D /* PhotosViewController */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1104A0B71CC8C3620029A00D /* PhotosViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1104A0B81CC8C3870029A00D /* PhotosViewController.h */,
+				1104A0B91CC8C3870029A00D /* PhotosViewController.m */,
+			);
+			name = PhotosViewController;
+			sourceTree = "<group>";
+		};
+		1104A0BB1CC8D88A0029A00D /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				1104A0BC1CC8D8990029A00D /* PhotoCustomCell */,
+			);
+			name = CustomUI;
+			sourceTree = "<group>";
+		};
+		1104A0BC1CC8D8990029A00D /* PhotoCustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				1104A0BD1CC8D9E00029A00D /* PhotoCustomCell.h */,
+				1104A0BE1CC8D9E00029A00D /* PhotoCustomCell.m */,
+			);
+			name = PhotoCustomCell;
+			sourceTree = "<group>";
+		};
+		1104A0C01CC8EAF20029A00D /* ApiConnector */ = {
+			isa = PBXGroup;
+			children = (
+				1104A0C11CC8EB1B0029A00D /* ApiConnector.h */,
+				1104A0C21CC8EB1B0029A00D /* ApiConnector.m */,
+			);
+			name = ApiConnector;
+			sourceTree = "<group>";
+		};
+		52A1DA31B71773B4E5AA7C0A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43F843861943BDE30C04924C /* Pods.debug.xcconfig */,
+				6C71F63A52A743ACEBEB657D /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A811C4C2CE6D93B93F9F5711 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03821CA949C9F5A99EDE72A7 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1104A0991CC8BC650029A00D /* PanoramioWalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1104A0B11CC8BC670029A00D /* Build configuration list for PBXNativeTarget "PanoramioWalk" */;
+			buildPhases = (
+				A5E5A9D1E01FD9207ADADABF /* Check Pods Manifest.lock */,
+				1104A0961CC8BC650029A00D /* Sources */,
+				1104A0971CC8BC650029A00D /* Frameworks */,
+				1104A0981CC8BC650029A00D /* Resources */,
+				FD7270FD6B34F5BF9B8A35B4 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PanoramioWalk;
+			productName = PanoramioWalk;
+			productReference = 1104A09A1CC8BC650029A00D /* PanoramioWalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1104A0921CC8BC640029A00D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Rost Gress";
+				TargetAttributes = {
+					1104A0991CC8BC650029A00D = {
+						CreatedOnToolsVersion = 7.2;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 1104A0951CC8BC650029A00D /* Build configuration list for PBXProject "PanoramioWalk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1104A0911CC8BC640029A00D;
+			productRefGroup = 1104A09B1CC8BC650029A00D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1104A0991CC8BC650029A00D /* PanoramioWalk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1104A0981CC8BC650029A00D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1104A0AD1CC8BC670029A00D /* LaunchScreen.storyboard in Resources */,
+				1104A0AA1CC8BC670029A00D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A5E5A9D1E01FD9207ADADABF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD7270FD6B34F5BF9B8A35B4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1104A0961CC8BC650029A00D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1104A0A21CC8BC660029A00D /* AppDelegate.m in Sources */,
+				1104A0BF1CC8D9E00029A00D /* PhotoCustomCell.m in Sources */,
+				1104A0BA1CC8C3870029A00D /* PhotosViewController.m in Sources */,
+				1104A09F1CC8BC660029A00D /* main.m in Sources */,
+				1104A0C31CC8EB1B0029A00D /* ApiConnector.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1104A0AB1CC8BC670029A00D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1104A0AC1CC8BC670029A00D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = PanoramioWalk;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1104A0AF1CC8BC670029A00D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1104A0B01CC8BC670029A00D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1104A0B21CC8BC670029A00D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43F843861943BDE30C04924C /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PanoramioWalk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rost.PanoramioWalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1104A0B31CC8BC670029A00D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C71F63A52A743ACEBEB657D /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PanoramioWalk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rost.PanoramioWalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1104A0951CC8BC650029A00D /* Build configuration list for PBXProject "PanoramioWalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1104A0AF1CC8BC670029A00D /* Debug */,
+				1104A0B01CC8BC670029A00D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1104A0B11CC8BC670029A00D /* Build configuration list for PBXNativeTarget "PanoramioWalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1104A0B21CC8BC670029A00D /* Debug */,
+				1104A0B31CC8BC670029A00D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1104A0921CC8BC640029A00D /* Project object */;
+}
